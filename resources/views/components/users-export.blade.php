@@ -6,7 +6,7 @@
             <input type="hidden" name="type" value="{{$type}}">
             <input class="form-control input-sm datepicker" id="export-year" name="year" required>
         </div>
-        <button type="submit" class="btn btn-sm btn-default"><i class="material-icons">get_app</i> Excel</button>
+        <button type="submit" class="btn btn-sm btn-default">Excel</button>
     </form>
 </div>
 <script>

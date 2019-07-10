@@ -25,7 +25,7 @@
       @endif
       
       @if($user->role == "student")
-       <button class="btn btn-xs btn-success pull-right" role="button" id="btnPrint"><i class="material-icons">print</i> Print Profile</button>
+       <button class="btn btn-xs btn-success pull-right" role="button" id="btnPrint">Print Profile</button>
        <div class="visible-print-block" id="profile-content">
        <div class="row">
           <div class="col-md-12">

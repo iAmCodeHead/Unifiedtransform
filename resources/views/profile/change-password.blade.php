@@ -13,7 +13,7 @@
         <div class="col-md-2">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('create-school')}}"><i class="material-icons">gamepad</i> Manage School</a>
+                    <a class="nav-link" href="{{url('create-school')}}"><i class="material-icons"></i> Manage School</a>
                 </li>
             </ul>
         </div>
@@ -65,7 +65,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-4 col-sm-8">
-                                <button type="submit" class="btn btn-danger">Submit</button>
+                                <button type="submit" class="btn btn-success">Submit</button>
                             </div>
                         </div>
                     </form>

@@ -92,7 +92,7 @@
                                             </div>
                                             <div class="form-group">
                                               <div class="col-sm-offset-2 col-sm-10">
-                                                <button type="submit" class="btn btn-danger btn-sm">Submit</button>
+                                                <button type="submit" class="btn btn-success btn-sm">Submit</button>
                                               </div>
                                             </div>
                                           </form>
@@ -105,7 +105,7 @@
                                   </div>
                       </td>
                       <td>
-                        <a href="#collapse{{($loop->index + 1)}}" role="button" class="btn btn-danger btn-sm" data-toggle="collapse" aria-expanded="false" aria-controls="collapse{{($loop->index + 1)}}"><i class="material-icons">class</i> Manage Class, Section
+                        <a href="#collapse{{($loop->index + 1)}}" role="button" class="btn btn-danger btn-sm" data-toggle="collapse" aria-expanded="false" aria-controls="collapse{{($loop->index + 1)}}">Manage Class, Section
                         </a>
                       </td>
                       {{-- <td>
@@ -231,10 +231,10 @@
                   <tbody>
                     <tr>
                       <td>
-                          <a class="btn btn-info btn-sm" href="{{ url('academic/notice') }}"><i class="material-icons">developer_board</i> Upload Notice</a>
+                          <a class="btn btn-info btn-sm" href="{{ url('academic/notice') }}"></i> Upload Notice</a>
                         </td>
                         <td>
-                          <a class="btn btn-info btn-sm" href="{{ url('academic/event') }}"><i class="material-icons">developer_board</i> Upload Event</a>
+                          <a class="btn btn-info btn-sm" href="{{ url('academic/event') }}">Upload Event</a>
                         </td>
                     </tr>
                   </tbody>

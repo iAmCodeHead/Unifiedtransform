@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @if(count($user) > 0)
-  @section('title', $user->name)
+  @section('title ', $user->name)
 @endif
 
 @section('content')

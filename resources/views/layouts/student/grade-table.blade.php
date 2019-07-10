@@ -1,6 +1,6 @@
 @if(count($exams) > 0)
 @foreach($exams as $exam)
-<h3>{{$exam->exam_name}}<span class="pull-right"><button class="btn btn-xs btn-success" role="button" id="btnPrint{{$exam->id}}"><i class="material-icons">print</i> Print Result</button></span></h3>
+<h3>{{$exam->exam_name}}<span class="pull-right"><button class="btn btn-xs btn-success" role="button" id="btnPrint{{$exam->id}}">Print Result</button></span></h3>
 <div class="visible-print-block" id="table-content{{$exam->id}}">
   <table class="table table-bordered" style="font-size: 10px;">
     <thead>

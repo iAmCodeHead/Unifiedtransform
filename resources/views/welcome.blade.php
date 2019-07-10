@@ -45,8 +45,13 @@
                 text-align: center;
             }
 
+            .login:hover{
+                color: #28a745;
+            }
+
             .title {
                 font-size: 84px;
+                color: #28a745;
             }
 
             .links > a {
@@ -76,19 +81,19 @@
     <body id="gradient">
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <div class="title m-b-md">
-                    {{config('app.name')}}
+                <div class="title m-b-md text-success">
+                    Unity Schools Information Management System
                 </div>
                 <p style="font-size: 25px;">Makes managing schools an amazing experience</p>
                 <div class="links">
                     @if (Route::has('login'))
                         @auth
-                            <a href="{{ url('/home') }}">Home</a>
+                            <a class="login" href="{{ url('/home') }}">Home</a>
                         @else
-                            <a href="{{ route('login') }}">Login</a>
+                            <a class="login" href="{{ route('login') }}">Login</a>
                         @endauth
                     @endif
-                    <a href="https://github.com/changeweb/Unifiedtransform">
+                    <a style="display: none" href="#">
                         <i class="fa fa-github"></i>
                         GitHub
                     </a>

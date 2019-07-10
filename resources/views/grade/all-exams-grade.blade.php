@@ -46,10 +46,10 @@
                                                     <a href="{{url('grades/section/'.$section->id)}}">{{$section->section_number}}</a>
                                                 </td>
                                                 <td>
-                                                    <a href="{{url('section/students/'.$section->id)}}" class="btn btn-info btn-xs"><i class="material-icons">visibility</i> View Each Student's Grade History</a>
+                                                    <a href="{{url('section/students/'.$section->id)}}" class="btn btn-info btn-xs">View Each Student's Grade History</a>
                                                 </td>
                                                 <td>
-                                                    <a href="{{url('grades/section/'.$section->id)}}" role="button" class="btn btn-xs btn-danger"><i class="material-icons">visibility</i> View all Students Marks under this Section</a>
+                                                    <a href="{{url('grades/section/'.$section->id)}}" role="button" class="btn btn-xs btn-danger">View all Students Marks under this Section</a>
                                                 </td>
                                                 </tr>
                                                 @endif

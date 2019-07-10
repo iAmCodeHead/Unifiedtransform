@@ -11,7 +11,7 @@
         <div class="col-md-10" id="main-container">
             <div class="panel panel-default">
                 <div class="page-panel-title">All Fees
-                  <button class="btn btn-xs btn-success pull-right" role="button" id="btnPrint" ><i class="material-icons">print</i> Print Fees Form</button>
+                  <button class="btn btn-xs btn-success pull-right" role="button" id="btnPrint" >Print Fees Form</button>
               </div>
                 <div class="panel-body">
                     @if (session('status'))

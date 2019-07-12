@@ -25,11 +25,11 @@
                                         <a class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$class->id}}" aria-expanded="false" aria-controls="collapse{{$class->id}}">{{$class->class_number}} {{ucfirst($class->group)}}</a>
                                     </div>
                                     <div class="col-md-4">
-                                        <a class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$class->id}}" aria-expanded="false" aria-controls="collapse{{$class->id}}"><small><b>Click to view all Sections under this Class <i class="material-icons">keyboard_arrow_down</i></b></small></a>
+                                        <a class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$class->id}}" aria-expanded="false" aria-controls="collapse{{$class->id}}"><small><b>Click to view all Sections under this Class</b></small></a>
                                     </div>
                                     @if(isset($_GET['course']) && $_GET['course'] == 1)
                                     <div class="col-md-4">
-                                        <a role="button" class="btn btn-info btn-xs" href="{{url('academic/syllabus/'.$class->id)}}"><i class="material-icons">visibility</i> View Syllabus for this Class</a>
+                                        <a role="button" class="btn btn-info btn-xs" href="{{url('academic/syllabus/'.$class->id)}}">View Syllabus for this Class</a>
                                     </div>
                                     @endif
                                 </div>
@@ -63,12 +63,12 @@
                                                 @foreach ($exams as $ex)
                                                     @if ($ex->class_id == $class->id)
                                                         <td>
-                                                            <a role="button" class="btn btn-primary btn-xs" href="{{url('attendances/'.$section->id.'/0/'.$ex->exam_id)}}"><i class="material-icons">visibility</i> View Today's Attendance</a>
+                                                            <a role="button" class="btn btn-primary btn-xs" href="{{url('attendances/'.$section->id.'/0/'.$ex->exam_id)}}">View Today's Attendance</a>
                                                         </td>
                                                     @endif
                                                 @endforeach
                                             <td>
-                                                <a role="button" class="btn btn-danger btn-xs" href="{{url('attendances/'.$section->id)}}"><i class="material-icons">visibility</i> View Each Student's Attendance</a>
+                                                <a role="button" class="btn btn-danger btn-xs" href="{{url('attendances/'.$section->id)}}">View Each Student's Attendance</a>
                                             </td>
                                             <td>
                                                 <?php
@@ -79,7 +79,7 @@
                                                         <?php
                                                             $ce = 1;
                                                         ?>
-                                                        <a role="button" class="btn btn-info btn-xs" href="{{url('attendances/'.$section->id.'/0/'.$ex->exam_id)}}"><i class="material-icons">spellcheck</i> Take Attendance</a>
+                                                        <a role="button" class="btn btn-info btn-xs" href="{{url('attendances/'.$section->id.'/0/'.$ex->exam_id)}}">Take Attendance</a>
                                                     @endif
                                                 @endforeach
                                                 @if($ce == 0)
@@ -89,13 +89,13 @@
                                             @endif
                                             @if(isset($_GET['course']) && $_GET['course'] == 1)
                                             <td>
-                                                <a role="button" class="btn btn-info btn-xs" href="{{url('courses/0/'.$section->id)}}"><i class="material-icons">visibility</i> View Courses under this section</a>
+                                                <a role="button" class="btn btn-info btn-xs" href="{{url('courses/0/'.$section->id)}}">View Courses under this section</a>
                                             </td>
                                             <td>
-                                                <a role="button" class="btn btn-danger btn-xs" href="{{url('section/students/'.$section->id.'?section=1')}}"><i class="material-icons">visibility</i> View Students of this section</a>
+                                                <a role="button" class="btn btn-danger btn-xs" href="{{url('section/students/'.$section->id.'?section=1')}}">View Students of this section</a>
                                             </td>
                                             <td>
-                                                <a role="button" class="btn btn-primary btn-xs" href="{{url('academic/routine/'.$section->id)}}"><i class="material-icons">visibility</i> View Routines for this section</a>
+                                                <a role="button" class="btn btn-primary btn-xs" href="{{url('academic/routine/'.$section->id)}}">View Routines for this section</a>
                                             </td>
                                             @endif
                                             </tr>

@@ -25,7 +25,7 @@
         @endif
         <td>{{($file->active === 1)?'Yes':'No'}}</td>
         <td>
-          <a href="{{url('academic/remove/'.$upload_type.'/'.$file->id)}}" class="btn btn-danger btn-sm" role="button"><i class="material-icons">delete</i> Remove</a>
+          <a href="{{url('academic/remove/'.$upload_type.'/'.$file->id)}}" class="btn btn-danger btn-sm" role="button">Remove</a>
         </td>
       </tr>
       @endforeach

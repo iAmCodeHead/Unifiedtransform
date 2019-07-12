@@ -2,7 +2,7 @@
     <div class="page-panel-title" role="tab" id="heading{{$exam->id}}">
       <a class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$exam->id}}" aria-expanded="false" aria-controls="collapse{{$exam->id}}">
         <h5>
-          {{$exam->exam_name}} <span class="pull-right"><small>Click to view all courses under this Exam <i class="material-icons">keyboard_arrow_down</i></small></span>
+          {{$exam->exam_name}} <span class="pull-right"><small>Click to view all courses under this Exam</small></span>
         </h5>
       </a>
     </div>

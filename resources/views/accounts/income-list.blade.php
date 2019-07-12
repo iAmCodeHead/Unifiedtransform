@@ -13,7 +13,7 @@
             <div class="col-md-6">
               <div class="panel panel-default">
                 <div class="page-panel-title">View List of Income
-                <button class="btn btn-xs btn-success pull-right" role="button" id="btnPrint" ><i class="material-icons">print</i> Print This Income List</button></div>
+                <button class="btn btn-xs btn-success pull-right" role="button" id="btnPrint" >Print This Income List</button></div>
 
                 <div class="panel-body" style="margin-top: 5%;">
                     @if (session('status'))

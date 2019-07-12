@@ -23,7 +23,7 @@
                   @endif
               </div>
           </div>
-          <div class="form-group{{ $errors->has('school_medium') ? ' has-error' : '' }}">
+         <!-- <div class="form-group{{ $errors->has('school_medium') ? ' has-error' : '' }}">
               <label for="school_medium" class="col-md-4 control-label">School Medium</label>
 
               <div class="col-md-6">
@@ -42,7 +42,7 @@
                       </span>
                   @endif
               </div>
-          </div>
+          </div>-->
           <div class="form-group{{ $errors->has('school_established') ? ' has-error' : '' }}">
               <label for="school_established" class="col-md-4 control-label">School Established</label>
 
@@ -72,7 +72,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Save changes</button>
+        <button type="submit" class="btn btn-success">Save changes</button>
       </div>
     </div>
     </form>

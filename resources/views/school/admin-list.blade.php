@@ -13,7 +13,7 @@
             @endif
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('create-school')}}"><i class="material-icons">gamepad</i> Manage
+                    <a class="nav-link" href="{{url('create-school')}}"><i class="material-icons"></i> Manage
                         School</a>
                 </li>
             </ul>
@@ -44,16 +44,13 @@
                                     </i>Activate</a>
                                 @else
                                 <a href="{{url('master/deactivate-admin/'.$admin->id)}}" class="btn btn-xs btn-danger"
-                                    role="button"><i class="material-icons">
-                                        clear
-                                    </i>Deactivate</a>
+                                    role="button">
+                                    Deactivate</a>
                                 @endif
                             </td>
                             <td>
                                 <a href="{{url('edit/user/'.$admin->id)}}" class="btn btn-xs btn-info"
-                                    role="button"><i class="material-icons">
-                                        edit
-                                    </i> Edit</a>
+                                    role="button"> Edit</a>
                             </td>
                             <td>
                                 {{$admin->name}}

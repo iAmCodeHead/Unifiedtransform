@@ -93,9 +93,6 @@
                                     <div class="list-group">
                                         @foreach($notices as $notice)
                                         <a href="{{url($notice->file_path)}}" class="list-group-item" download>
-                                            <i class="badge badge-download material-icons">
-                                                get_app
-                                            </i>
                                             <h5 class="list-group-item-heading">{{$notice->title}}</h5>
                                             <p class="list-group-item-text">Published at:
                                                 {{$notice->created_at->format('M d Y h:i:sa')}}</p>
@@ -118,9 +115,6 @@
                                     <div class="list-group">
                                         @foreach($events as $event)
                                         <a href="{{url($event->file_path)}}" class="list-group-item" download>
-                                            <i class="badge badge-download material-icons">
-                                                get_app
-                                            </i>
                                             <h5 class="list-group-item-heading">{{$event->title}}</h5>
                                             <p class="list-group-item-text">Published at:
                                                 {{$event->created_at->format('M d Y')}}</p>
@@ -141,9 +135,6 @@
                                     <div class="list-group">
                                         @foreach($routines as $routine)
                                         <a href="{{url($routine->file_path)}}" class="list-group-item" download>
-                                            <i class="badge badge-download material-icons">
-                                                get_app
-                                            </i>
                                             <h5 class="list-group-item-heading">{{$routine->title}}</h5>
                                             <p class="list-group-item-text">Published at:
                                                 {{$routine->created_at->format('M d Y')}}</p>
@@ -164,9 +155,6 @@
                                     <div class="list-group">
                                         @foreach($syllabuses as $syllabus)
                                         <a href="{{url($syllabus->file_path)}}" class="list-group-item" download>
-                                            <i class="badge badge-download material-icons">
-                                                get_app
-                                            </i>
                                             <h5 class="list-group-item-heading">{{$syllabus->title}}</h5>
                                             <p class="list-group-item-text">Published at:
                                                 {{$syllabus->created_at->format('M d Y')}}</p>

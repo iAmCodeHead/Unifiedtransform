@@ -1,0 +1,6 @@
+﻿Create-school-form.blade: views/layouts/master
+* School-medium(language)
+
+
+Please remove the impersonate feature from students, school, librarian and accountant
+The links under attendance on admin page are not working. I don’t know whether it’s because there is no attendance yet. If you can’t, leave it. But let’s just try and make sure the project is submitted 9pm latest.
